@@ -17,7 +17,7 @@ class OutbackDataset_Group6(CustomDataset):
 
     def __init__(self, **kwargs):
         super(OutbackDataset_Group6, self).__init__(
-            img_suffix='.jpg',
+            img_suffix='.png',
             seg_map_suffix='_group6.png',
             **kwargs)
         self.CLASSES = ("background", "L1 (Smooth)", "L2 (Rough)", "L3 (Bumpy)", "non-Nav (Forbidden)", "obstacle")
